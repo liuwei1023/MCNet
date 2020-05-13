@@ -238,4 +238,4 @@ def test():
     t2 =time.time()
     print(f"hm={y['hm'].shape}, wh={y['wh'].shape}, reg={y['reg'].shape},  cost_time:{(t2-t1):.8f}sec!")
 
-test()
+# test()
