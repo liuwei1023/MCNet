@@ -1,0 +1,22 @@
+{
+    "Detector": {
+        "max_ojbs": 256,
+        "num_class": 1,
+        "threshold": 0.8,
+        "down_ration": 4
+    },
+    
+
+    "DLTrain": {
+        "train_with_multi_gpu": true,
+        "hm_weight": 1.0,
+        "wh_weight": 0.1,
+        "off_weight": 1.0,
+        "lr": 0.001,
+        "lr_cycle": 200,
+        "batch_size": 12,
+        "max_epoch": 1000,
+        "validation_per_epoch": 5
+    }
+    
+}
