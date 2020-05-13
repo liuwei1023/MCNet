@@ -66,7 +66,7 @@ class BaseDetector(object):
 
 
         system_log.WriteLine(f"process image {image_path} done, load_time: {load_time:.8f}sec, "
-                              "preprocess_time: {pre_time:.8f}sec, net_forward_time: {forward_time:.8f}sec, "
-                              "merge_output_time: {merge_time:.8f}sec,  total time: {total_time:.8f}sec")
+                             f"preprocess_time: {pre_time:.8f}sec, net_forward_time: {forward_time:.8f}sec, "
+                             f"merge_output_time: {merge_time:.8f}sec,  total time: {total_time:.8f}sec")
         return result
 
